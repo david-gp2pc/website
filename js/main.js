@@ -5,7 +5,7 @@ function autocollapse() {
 }
 
 function backstretch_image() {
-    jQuery(".s1").backstretch(["img/bg/background1.jpg", "img/bg/background2.jpg"], {
+    jQuery(".s1").backstretch(["img/bg/background1.jpg", "img/bg/background2.jpg", "img/bg/background3.jpg"], {
         duration: 5e3,
         fade: 2e3,
         centeredY: !1
@@ -99,7 +99,7 @@ function colorbox_images() {
 
 function owl() {
     jQuery(".owl-portfolio").owlCarousel({
-        autoPlay: 20e3,
+        autoPlay: 10e3,
         pagination: !1,
         singleItem: !0
     }), jQuery(".owl-reviews").owlCarousel({
